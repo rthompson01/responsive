@@ -1,0 +1,63 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	background-color: #5BA3D6;
+	color: white;
+}
+
+#main {
+	max-width: 650px;
+}
+
+#left {
+	height: 500px;
+	float: left;
+	width: 200px;
+	font-family: Arial;
+	font-size: .5em;
+
+}
+
+#middle {
+	height: 500px;
+	float: left;
+	width: 200px;
+	margin: auto;
+	font-family: Arial;
+	font-size: .5em;
+
+}
+
+#right {
+	height: 500px;
+	float: left;
+	width: 200px;
+	font-family: Arial;
+	font-size: .5em;
+	color: white;
+}
+
+input, textarea{
+	border: 1px solid white;
+	color: #2A6B9A
+
+}
+
+input {
+	width: 175px;
+	height: 25px;
+	font-style: italic;
+	padding: 5px;
+
+}
+
+textarea {
+	height: 75px;
+	width: 175px;
+}
+
+select {
+	-webkit-border-radius: 0px;
+	width: 175px;
+	padding: 5px;
+	color: white
+}
