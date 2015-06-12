@@ -1,63 +1,153 @@
 *, *::before, *::after {
+
 	box-sizing: border-box;
-	background-color: #5BA3D6;
 	color: white;
 }
 
-#main {
+body {
+
+	background-color: #5BA3D6;
+}
+
+main {
+
 	max-width: 650px;
 }
 
-#left {
-	height: 500px;
-	float: left;
-	width: 200px;
-	font-family: Arial;
-	font-size: .5em;
+.left {
 
-}
-
-#middle {
-	height: 500px;
 	float: left;
-	width: 200px;
+	display: block;
+	width: 30%;
+	font-family: arial;
+	text-align: center;
 	margin: auto;
-	font-family: Arial;
-	font-size: .5em;
-
+	padding-right: 1%;
 }
 
-#right {
-	height: 500px;
+.middle {
+
 	float: left;
-	width: 200px;
-	font-family: Arial;
-	font-size: .5em;
-	color: white;
+	display: block;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
 }
 
-input, textarea{
+.right {
+
+	float: left;
+	width: 30%;
+	display: block;
+	text-align: center;
+	font-family: arial;
+	padding-left: 1%;
+	margin: auto;
+}
+
+input, textarea {
+
 	border: 1px solid white;
 	color: #2A6B9A
-
 }
 
 input {
+
 	width: 175px;
 	height: 25px;
 	font-style: italic;
 	padding: 5px;
-
 }
 
 textarea {
+
 	height: 75px;
 	width: 175px;
 }
 
 select {
+
 	-webkit-border-radius: 0px;
 	width: 175px;
 	padding: 5px;
 	color: white
+}
+
+
+
+form {
+
+    display: block;
+    color: white;
+    font-size: 1em;
+    font-family: ;
+    border: 2px white;
+}
+
+div {
+
+    padding-top: 0%;
+    padding-bottom: 3%;
+    margin-top: .5%;
+}
+
+label {
+
+    padding: 1%;
+}
+
+input {
+
+    background-color: #3EA6C6;
+    border: 2px solid white;
+    border-radius: 0%;
+    line-height: 20px;
+}
+
+input:hover {
+
+    background-color: white;
+    border: 3px solid black;
+}
+
+select {
+
+    background-color: #3EA6C6;
+    border: 2px solid white;
+    color: white;
+    font-family:;
+    font-size: .6em;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0%;
+    line-height: 20px;
+    cursor:pointer;
+    min-width: 131px;
+}
+
+select:hover {
+
+    background-color: white;
+    border: 3px solid black;
+}
+
+textarea {
+
+    color: white;
+    background-color: #3EA6C6;
+    border: 2px solid white;
+    font-family: ;
+    font-size: .7em;
+    min-height: 100px;
+    border-radius: 0%;
+    text-align: center;
+}
+
+textarea:hover {
+
+    background-color: white;
+    border: 3px solid black;
 }
